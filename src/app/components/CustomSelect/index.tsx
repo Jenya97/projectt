@@ -1,7 +1,7 @@
 'use client'; // Mark this file as a client component
 
 import React, { useState, useEffect } from 'react';
-import './CustomSelect.scss'; // Import your SCSS styles
+import './customSelect.scss'; // Import your SCSS styles
 
 interface Option {
   value: string;
