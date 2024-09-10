@@ -1,0 +1,130 @@
+.tableData-container{
+    display: table;
+    width: 100%;
+    padding: 24px 0;
+}
+.table-header{
+    height: 32px;
+}
+.table-header,.table-row{
+    display: table-row;
+
+}
+.table-header div {
+    display: table-cell;
+    color: #6E7076;
+    font-size: 14px;
+    line-height: 20px;
+}
+.table-td{
+    display: table-cell;
+    word-wrap: break-word;
+    word-break: break-word;
+     vertical-align: middle;  
+         height: 67px;
+             border-bottom: 1px solid #E8EBF0;
+
+}
+.table-desc.table-td,.table-desc.table-td span{
+     width:616px;
+}
+ 
+.table-row{
+  &:hover{
+    background-color:#E8EBF0 ;
+    cursor: pointer;
+}
+
+}
+.table-user{
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+}
+.user-content{
+    display: flex;
+    gap: 8px;
+}
+.table-desc span{
+    font-size: 16px;
+    line-height:24px;
+    color: #36394A;
+}
+ 
+.user-info>div{
+    display: flex;
+    gap:4px;
+}
+.user-info>div h3{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.rateing-block{
+padding:2px 4px;
+border-radius:6px;
+display: flex;
+gap:2px;
+font-weight: 600;
+font-size:12px;
+line-height:18px;
+align-items: center;
+}
+.rateing-block svg{
+    height: 12px;
+}
+.rateing-block span{
+    width: 19px;
+    height: 16px;
+    display:inline-block;
+    text-align: center;
+}
+.user-info p{
+    color: #6E7076;
+    font-size:12px;
+    line-height: 18px;
+}
+.user-img-content{
+    position: relative;
+    align-self: flex-start;
+}
+.user{
+   
+    &-online{
+     display: block;
+    width: 16px;
+    height: 16px;
+    background: #1DB462;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    bottom:  0;
+    z-index: 10;
+    }
+    &-offline{
+     display: block;
+    width: 16px;
+    height: 16px;
+    background: #9E9DA4;
+    border: 3px solid white;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+   right: -7px;
+    bottom: 0;
+    z-index: 10;
+    }
+}
+.table-stock span,.more_suggestion{
+    font-size: 16px;
+    line-height: 24px;
+    color:#36394A;
+}
+.more_suggestion{
+    width: 100%;
+}
+
+.table-content{
+    margin-bottom: 40px;
+}

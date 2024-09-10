@@ -1,0 +1,38 @@
+  [
+    {
+      "text": "Все",
+      "active":true
+    },
+    {
+      "text": "Белы",
+            "active":false
+
+    },
+    {
+      "text": "Аккаунты",
+            "active":false
+
+    },
+    {
+      "text": "Предметы",
+            "active":false
+
+    },
+    {
+      "text": "VIP-сервер",
+            "active":false
+
+    },
+    {
+      "text": "Услуги",
+            "active":false
+
+    },
+    {
+      "text": "Гайды",
+            "active":false
+
+    }
+   
+  ]
+ 
