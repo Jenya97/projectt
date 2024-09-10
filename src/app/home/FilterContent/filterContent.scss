@@ -1,0 +1,38 @@
+.filter-container-btns{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.showcase-filters-container{
+    display: flex;
+    max-width: 900px;
+    flex-wrap: wrap;
+    gap: 8px 4px;
+    align-items: center;
+}
+.custom-select{
+    border: 1px solid #E8EBF0;
+    padding: 8px 12px   ;
+    border-radius: 8px;
+   
+}
+ .custom-select__header{
+ font-size: 14px;
+    line-height: 20px;
+    color: #36394A;
+}
+.search-input-container{
+    max-width: 317px;
+    width: 100%;
+}
+.custom-button{
+    padding:8px 16px;
+}
+ .btn-link{
+  
+   &:hover,  &.active {
+      background-color: #5C80FD;
+      color:#FFFFFF;
+    }
+}

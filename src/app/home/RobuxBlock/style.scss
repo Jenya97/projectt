@@ -1,0 +1,43 @@
+.rebux-container{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.rebux-container p,.rebux-container li{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#808287;
+    letter-spacing: 0.01em;
+}
+.rebux-container ul, .rebux-container ol{
+    list-style-position:inside;
+        padding-left: 10px;
+
+}
+.rebux-container h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #6E7076;
+}
+.rebux-container ul{
+    list-style: none;
+}
+.rebux-container li {
+  position: relative;
+  padding-left: 12px; 
+ &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%); 
+      width: 5px; 
+      height: 5px; 
+      background-color: #6E7076; 
+      border-radius: 50%; 
+    }
+  
+}
