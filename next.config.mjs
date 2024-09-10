@@ -17,6 +17,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/projectt', // Replace with your repository name
+
+  // Optional: If you need to use a custom asset prefix
+  assetPrefix: '/projectt',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
