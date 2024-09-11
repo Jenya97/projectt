@@ -27,6 +27,9 @@
 }
 .table-desc.table-td,.table-desc.table-td span{
      width:616px;
+     @media screen and (max-width:1220px) {
+         width: 60%;
+     }
 }
  
 .table-row{

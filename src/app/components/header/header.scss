@@ -5,15 +5,24 @@
 
 }
 
-.header_container{
+.header .header_container{
     display: flex;
     gap: 114px;
     height: 32px;
+    @media screen and (max-width:1220px) {
+          padding: 0 40px ;
+       gap: 30px;
+
+    }
 }
 .header__logo-and-search{
     display: flex;
     gap: 50px;
     align-items: center;
+      @media screen and (max-width:1160px) {
+       gap: 10px;
+
+    }
 }
 .header__options{
     display: flex;

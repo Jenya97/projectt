@@ -85,11 +85,13 @@ a {
   max-width: 1128px;
   width: 100%;
   margin: auto;
+@media screen and (max-width:1220px) {
+  padding:  0px 20px;
 
+}
 }
 .main-container{
   max-width: 1256px;
-  width:69.5%; 
     margin: auto;
     border: 1px solid #E8EBF0;
     background-color: #FFFFFF;
